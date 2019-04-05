@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Pig Dice Game</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
   <!-- getting the fonts from google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
@@ -11,31 +12,55 @@
 
 <body>
   <h1>Welcome to Pig Dice! The funnest game in the world!</h1>
-
-  <ul>
-    <li>Step 1: Roll one die for your first turn. Playing with two dice is optional.</li>
-<li>Step 2: Enter points on the score sheet if the number rolled is two, three, four, five, or six points. If you roll a one, you lose all the points you accumulated during that turn, and you lose your turn.</li>
-<li>Step 3: Continue rolling the die until you're happy with the number of points you've scored. Then, "hold" by handing the die over to your opponent, and track all points earned during your turn.</li>
-<li>TIP: Knowing when to stop rolling and end your turn is the key to winning at Pig. It's an exercise in deciding between gut instinct and greed.</li>
-<li>Step 4: Reach 100 points first and win the game.</li>
-<li>Step 5: To play with two dice, roll both for your first turn. If you roll a one on either die, you score zero for that turn and your turns ends, but if you roll two ones – or snake eyes – you lose your turn and all the points you've earned during the game.</li>
-<li>FACT: The rules of Pig were first described in 1945 as a folk dice game by math whiz and gaming expert John Scarne.</li>
-  </ul>
-  <div class="container">
-  <h2>Restart Game</h2>
-    <div class="dice">
-      <p><strong>Player 1</strong></p>
-      <img class="img1"src="images/one.png">
+  <div class="row">
+    <div class="col-md-6" style="text-align:center;">
+      <ul>
+        <strong>Step 1:</strong> Roll one die for your first turn. Playing with two dice is optional.<br></br>
+        <strong>Step 2:</strong> Enter points on the score sheet if the number rolled is two, three, four, five, or six points. If you roll a one, you lose all the points you accumulated during that turn, and you lose your turn.<br></br>
+        <strong>Step 3:</strong> Continue rolling the die until you're happy with the number of points you've scored. Then, "hold" by handing the die over to your opponent, and track all points earned during your turn.<br></br>
+        <strong>TIP:</strong> Knowing when to stop rolling and end your turn is the key to winning at Pig. It's an exercise in deciding between gut instinct and greed.<br></br>
+        <strong>Step 4:</strong> Reach 100 points first and win the game.
+        <strong>Step 5:</strong> To play with two dice, roll both for your first turn. If you roll a one on either die, you score zero for that turn and your turns ends, but if you roll two ones – or snake eyes – you lose your turn and all the points
+        you've earned
+        during the game.<br></br>
+        <strong>FACT:</strong> The rules of Pig were first described in 1945 as a folk dice game by math whiz and gaming expert John Scarne.<br></br>
+      </ul>
     </div>
-    <div class="dice">
-      <p><strong>Player 2</strong></p>
-      <img  class="img2"src="images/one.png">
+    <div class="col-md-6">
+      <div class="container">
+
+        <div class="dice">
+          <div class="form-group">
+            <label for="new-first-name">Player1</label>
+            <input type="text" class="form-control" id="player1">
+          </div>
+          <img class="img1" src="images/one.png">
+        </div>
+        <div class="dice">
+          <div class="form-group">
+            <label for="new-last-name">Player 2</label>
+            <input type="text" class="form-control" id="player2">
+          </div>
+          <img class="img2" src="images/one.png">
+        </div>
+      </div>
     </div>
-
-
-
-
+    <button id="start" class="btn-info btn">Start</button>
   </div>
+  <div class="row" >
+    <div class="col-md-4">
+    <h2>Player 1:<span id ="player1Name"></span></h2>
+    <bu
+   </div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <button type="button" name="button">Restart Game</button>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="js/scripts.js">
   </script>

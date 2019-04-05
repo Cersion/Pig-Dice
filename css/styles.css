@@ -28,9 +28,10 @@ body{
   background-image: url("https://www.thoughtco.com/thmb/Z7i_W11m-0HDiPRqM4DbWRk2hPY=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/close-up-of-dices-on-street-764849093-5a6f86210e23d90036767df7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
+  text-align: center;
 }
 footer{
   margin-top:20px;
   text-align: center;
+  width:80%;
 }
