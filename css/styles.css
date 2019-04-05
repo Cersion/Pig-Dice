@@ -15,8 +15,11 @@ body{
 
 }
 h1{
-  color;#4ECCA3
+  color;#00FFFF;
 }
 .dice{
   font-family: 'Cinzel', serif;
+}
+p{
+  font-family: 'Cinzel', serif;  
 }
