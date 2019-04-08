@@ -33,14 +33,15 @@
           <div class="form-group">
             <h2>Player1 </h2>
              <input type="text" placeholder="PLAYER ONE" id="btnplayer1" >
-            <input type="button" value="" id="begin">
+            <input type="button" value="begin" id="begin">
           </div>
         
         </div>
         <div class="dice">
           <div class="form-group">
             <label for="new-last-name">Player 2</label>
-            <input type="text" placeholder="PLAYER TWO" id="player2">
+            <input type="text" placeholder="PLAYER TWO" id="btnplayer2">
+            <input type="button" value="begin" id="start">
           </div>
         
         </div>
@@ -50,10 +51,10 @@
   </div>
   <div class="row" >
     <div class="col-md-4">
-     <h2 id="player1h">Player 1:</h2><br>
+     <h2 id="playeryou">Player 1:</h2><br>
      <span id="outputOne"></span>
-    <button id="player1-roll" class="btn-success btn">Roll</button>
-    <button id="player1-hold" class="btn-success btn">Hold</button>
+    <button id="player-roll1" class="btn-success btn">Roll</button>
+    <button id="player-hold1" class="btn-success btn">Hold</button>
     <br>
     <br>
     <p>Round Total:<span id="round-total-1"></span></p>
@@ -63,7 +64,7 @@
   </div>
   <div class="row">
     <div class="col-md-4">
-    <h2>Player 2:<span id ="player2Name"></span></h2>
+    <h2 id="playerthem">Player2</h2><br>
     <button id="player2-roll" class="btn-success btn">Roll</button>
     <button id="player2-hold" class="btn-success btn">Hold</button>
     <br>

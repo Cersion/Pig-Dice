@@ -3,10 +3,17 @@ $(document).ready(function(){
     var nameOne = $("#btnplayer1").val();
 
     
-    $("#player1h").html(  nameOne);
+    $("#playeryou").html(  nameOne);
    });
 });
+$(document).ready(function(){
+   $("#start").click(function(){
+    var nameTWo = $("#btnplayer2").val();
 
+    
+    $("#playerthem").html(  nameTWo);
+   });
+});
 
 
 /*
