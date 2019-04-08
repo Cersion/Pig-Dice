@@ -31,37 +31,43 @@
 
         <div class="dice">
           <div class="form-group">
-            <label for="new-first-name">Player1</label>
-            <input type="text" class="form-control" id="player1">
+            <h2>Player1 </h2>
+             <input type="text" placeholder="PLAYER ONE" id="btnplayer1" >
+            <input type="button" value="" id="begin">
           </div>
-          <img class="img1" src="images/one.png">
+        
         </div>
         <div class="dice">
           <div class="form-group">
             <label for="new-last-name">Player 2</label>
-            <input type="text" class="form-control" id="player2">
+            <input type="text" placeholder="PLAYER TWO" id="player2">
           </div>
-          <img class="img2" src="images/one.png">
+        
         </div>
       </div>
     </div>
-    <button id="start" class="btn-info btn">Start</button>
+  
   </div>
   <div class="row" >
     <div class="col-md-4">
-    <h2>Player 1:<span id ="player1Name"></span></h2>
+     <h2 id="player1h">Player 1:</h2><br>
+     <span id="outputOne"></span>
     <button id="player1-roll" class="btn-success btn">Roll</button>
-    <button id="player1-roll" class="btn-success btn">Hold</button>
+    <button id="player1-hold" class="btn-success btn">Hold</button>
+    <br>
+    <br>
+    <p>Round Total:<span id="round-total-1"></span></p>
+    <p>Total Score:<span id="total-score-1"></span></p>
+    </div>
    </div>
   </div>
   <div class="row">
     <div class="col-md-4">
     <h2>Player 2:<span id ="player2Name"></span></h2>
     <button id="player2-roll" class="btn-success btn">Roll</button>
-    <button id="player2-roll" class="btn-success btn">Hold</button>
+    <button id="player2-hold" class="btn-success btn">Hold</button>
     <br>
     <br>
-    <h2>Dice Roll:<span id ="die-roll-1"></span></h2>
     <p>Round Total:<span id="round-total-1"></span></p>
     <p>Total Score:<span id="total-score-1"></span></p>
     </div>
