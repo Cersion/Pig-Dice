@@ -37,13 +37,13 @@
           </div>
         
         </div>
-        <div class="dice">
+        <div class="container">
           <div class="form-group">
             <label for="new-last-name">Player 2</label>
             <input type="text" placeholder="PLAYER TWO" id="btnplayer2">
             <input type="button" value="begin" id="start">
           </div>
-        
+        <input type="button" value="Start Game" id="Game">
         </div>
       </div>
     </div>
@@ -64,20 +64,20 @@
   </div>
   <div class="row">
     <div class="col-md-4">
-    <h2 id="playerthem">Player2</h2><br>
-    <button id="player2-roll" class="btn-success btn">Roll</button>
-    <button id="player2-hold" class="btn-success btn">Hold</button>
+    <h2 id="playerthem">Player 2:</h2><br>
+    <button id="player-roll2" class="btn-success btn">Roll</button>
+    <button id="player-hold2" class="btn-success btn">Hold</button>
     <br>
     <br>
-    <p>Round Total:<span id="round-total-1"></span></p>
-    <p>Total Score:<span id="total-score-1"></span></p>
+    <p>Round Total:<span id="round-total-2"></span></p>
+    <p>Total Score:<span id="total-score-2"></span></p>
     </div>
   </div>
   <br>
   <br>
   <br>
   <br>
-  <button type="button" name="button">Restart Game</button>
+  <button type="button" name="button" onclick="reset()">restart</button>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script type="text/javascript" src="js/scripts.js">
   </script>
